@@ -1,0 +1,22 @@
+.hero {
+  padding: 30px;
+  background-color: $dark-color;
+  transition: 0.5s;
+  min-height: 100vh;
+
+  &:hover {
+    background-color: $main-color;
+
+    h2 {
+      color: $dark-color;
+      font-size: 10rem;
+    }
+  }
+
+  h2 {
+    color: $light-color;
+    font-size: 4rem;
+    text-align: center;
+    transition: 0.5s;
+  }
+}
