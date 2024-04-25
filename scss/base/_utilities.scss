@@ -1,0 +1,30 @@
+//extend
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+//mixin sin parametros
+@mixin flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+//mixin con parametros
+
+@mixin flex-p($direccion, $align, $justify, $gap) {
+  display: flex;
+  flex-direction: $direccion;
+  align-items: $align;
+  justify-content: $justify;
+  gap: $gap;
+}
+
+@mixin imagenes($w, $h, $obj) {
+  width: $w;
+  height: $h;
+  object-fit: $obj;
+}

@@ -5,3 +5,15 @@ $p-5: 50px;
 //fonts
 $main-font: "Roboto", sans-serif;
 $secondary-font: "Roboto Slab", serif;
+//maps
+$colores: (
+  primary: rgb(29, 29, 158),
+  danger: rgb(142, 27, 27),
+  warning: rgb(255, 98, 0),
+  dark: black,
+  light: white,
+  success: rgb(13, 112, 13),
+  info: gray,
+  secondary: rgb(167, 9, 167),
+  terciary: rgb(255, 53, 103)
+);
